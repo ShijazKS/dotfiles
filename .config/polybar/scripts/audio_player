@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Get the currently playing song information from ncmpcpp
+song_info=$(ncmpcpp --current-song)
+
+# Print the song information
+echo "$song_info"
